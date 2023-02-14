@@ -1,0 +1,12 @@
+name: Hub
+version: '${project.version}'
+main: com.valoriom
+api-version: 1.18
+authors: Valoriom
+description: Simple HubCore made for all.
+
+commands:
+  setspawn:
+    description: set spawn command
+  spawn:
+    description: spawn command
