@@ -1,0 +1,145 @@
+JOIN-MESSAGE:
+  - ""
+  - "  &fWelcome %colorrank%%player% &fto &5&lServer §7┃ &fHub"
+  - "      &fYour current rank is %colorrank%%rank%"
+  - " "
+  - "  &7➥ &fStore: &5store.server.cc"
+  - "  &7➥ &fDiscord: &5discord.server.cc"
+  - "  &7➥ &fNameMC: &5namemc.server.cc"
+  - " "
+  - "  &fYou are currently connected to &aHub-01"
+  - ""
+
+SCOREBOARD_INFO:
+  TITLE: '§5§lServer §7┃ §fHub' # If changer not enabled
+  LINES: ' '
+
+TITLE_CONFIG:
+  CHANGER_ENABLED: true
+  CHANGER_TICKS: 190 # Less for faster changing, more for slower changing
+  # Create as many as you want
+  CHANGES:
+    - '§5§lServer §7┃ §fHub'
+    - '§5§lServer §7┃ §fHub'
+    - '§5§lServer §7┃ §fHub'
+    - '§5§lServer §7┃ §fHub'
+    - '§5§lServer §7┃ §fHub'
+    - '§f§lServer §7┃ §fHub'
+    - '§5§lS§f§lerver §7┃ §fHub'
+    - '§5§lSe§f§lrver §7┃ §fHub'
+    - '§5§lSer§f§lver §7┃ §fHub'
+    - '§5§lServ§f§ller §7┃ §fHub'
+    - '§5§lServe§f§lr §7┃ §fHub'
+    - '§5§lServer §7┃ §fHub'
+    - '§f§lServer §7┃ §fHub'
+    - '§5§lServer §7┃ §fHub'
+    - '§f§lServer §7┃ §fHub'
+    - '§5§lServer §7┃ §fHub'
+    
+FOOTER_CONFIG:
+  CHANGER_ENABLED: true
+  CHANGER_TICKS: 3500
+  CHANGES:
+    - "&7&ostore.server.cc"
+    - "&7&odiscord.server.cc"
+    - "&7&onamemc.server.cc"
+    
+LINES:
+  QUEUED:
+    - " "
+    - "&5&lInfo"
+    - " &7➥ &fRank: %rank%"
+    - " &7➥ &fExpires: &aNever"
+    - " &7➥ &fCoins: &e%coins%◆"      
+    - " "
+    - "&5&lNetwork"
+    - " &7➥ &fOnline: &5%bungee_total%"
+    - " &7➥ &fServer: &aHub-01" 
+    - " "
+    - "&5&lQueue"
+    - " &7➥ &fPosition: &5#%position%&f / &5#%size%"
+    - " &7➥ &fServer: &5%server%"
+    - " "
+    - "%footer%" 
+  NORMAL:
+    - " "
+    - "&5&lInfo"
+    - " &7➥ &fRank: %rank%"
+    - " &7➥ &fExpires: &aNever"
+    - " &7➥ &fCoins: &e%coins%◆"      
+    - " "
+    - "&5&lNetwork"
+    - " &7➥ &fOnline: &5%bungee_total%"
+    - " &7➥ &fServer: &aHub-01" 
+    - " "
+    - "%footer%"      
+
+TABLIST_INFO:
+  TAB-FOOTER_CONFIG:
+    CHANGER_TICKS: 3500
+    CHANGES:
+      - "&5Store: &fstore.server.cc"
+      - "&5Discord: &fdiscord.server.cc"
+      - "&5NameMC: &fnamemc.server.cc"
+  CHANGER_TICKS-TITLE: 190
+  CHANGES-TITLE:
+    - '§5§lServer'
+    - '§5§lServer'
+    - '§5§lServer'
+    - '§5§lServer'
+    - '§5§lServer'
+    - '§f§lServer'
+    - '§5§lS§f§lerver'
+    - '§5§lSe§f§lrver'
+    - '§5§lSer§f§lver'
+    - '§5§lServ§f§ller'
+    - '§5§lServe§f§lr'
+    - '§5§lServer'
+    - '§f§lServer'
+    - '§5§lServer'
+    - '§f§lServer'
+    - '§5§lServer'   
+  HEADER:
+    - ' '
+    - '%header% §7┃ §f%bungee_total% / 1000'
+    - '§5§l75% §lOff §favailable at §o§5§lstore.server.cc'
+    - ' '
+  FOOTER:
+    - ' '
+    - '§fYou are playing §5Hub §fon §5server.cc'
+    - '%footer%'
+    - ' '
+    
+QUEUE_SERVERS:
+  - HCF
+QUEUE_MESSAGES:
+  INQUEUE:
+    - ''
+    - '&7You are &d%position% out of %inqueue% &7in the &d%server%'
+    - ''
+  HIGHER_QUEUE: '&eSomeone with higher queue priority has joined the queue!'
+  LEAVE_QUEUE: '&7You are no longer in queue for &d%server%&7.'
+  PAUSED: '&d%server% &7queue has been &cpaused'
+  UNPAUSED: '&d%server% &7queue has been &aunpaused'    
+    
+ENDERBUTT:
+  NAME: "&5EnderButt"
+  SLOT: 5
+  
+SELECTOR:
+  NAME: "&5Server Selector"
+  SLOT: 3
+  HCF-ITEM-SKULLOWNER: "Valoriom"
+  HCF-ITEM-SLOT: 13
+  HCF-ITEM-NAME: "&5&lHCF"
+  HCF-LORE:
+    - " "
+    - " &7➥ &fPlayers: &5%bungee_HCF%" 
+    - " &7➥ &fMap Kit: &5Sharp I, Prot I"
+    - " &7➥ &fQueued: &5%queued%"  
+    - " "
+    - " &aClick to join the queue!"
+    - " "  
+    
+
+  
