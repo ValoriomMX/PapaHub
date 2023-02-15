@@ -4,6 +4,8 @@ main: com.valoriom
 api-version: 1.18
 authors: Valoriom
 description: Simple HubCore made for all.
+depends:
+ - Core
 
 commands:
   setspawn:
